@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def about
+    @about_intro = "My name is Karm."
   end
-  
+
 end
